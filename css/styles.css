@@ -59,6 +59,13 @@ img {
 .nav:hover {
     color: var(--brand-color-ocean);
 }
+.main-navigation {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
 .contacts {
     font-style: normal;
     letter-spacing: 0.02em;
@@ -96,6 +103,7 @@ img {
     align-items: center;
     gap: 40px;
     margin-right: 332px;
+    flex-direction: row;
 }
 .header-logo {
     display: flex;
@@ -114,8 +122,6 @@ img {
 /*hero section styles*/
 .hero-section {
     background-color: var(--brand-color-navvy-blue);
-    width: 1440px;
-    height: 600px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -194,8 +200,7 @@ img {
     height: 104px;
     flex-shrink: 0;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
+
 }
 .section-box {
     display: flex;
@@ -226,8 +231,6 @@ img {
 }
 .team-section {
     background-color: var(--brand-color-cloud);
-    width: 1440px;
-    height: 732px;
     flex-shrink: 0;
     margin-left: 0;
     margin-right: 0;
@@ -236,11 +239,11 @@ img {
 .our-team-header {
     width: 162px;
     height: 40px;
-    display: inline-flex;
     margin-bottom: 72px;
-    margin-left: 639px;
-    margin-right: 639px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .team-list {
     display: flex;
@@ -281,7 +284,6 @@ img {
 
 .footer {
     background-color: var(--brand-color-navvy-blue);
-    width: 1440px;
     flex-shrink: 0;
     padding: 100px 0;
 }
