@@ -69,9 +69,45 @@ body {
     font-style: normal;
     list-style-type: none;
 }
+.header-container {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid --brand-color-cornflower;
+    background-color: #FFF;
+}
+.main-navigation {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-right: 332px;
+}
+.header-logo {
+    display: inline-flex;
+    height: 156px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 156px;
+    margin-right: 72px;
+}
+.contacts-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
 /*hero section styles*/
 .hero-section {
     background-color: var(--brand-color-navvy-blue);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
 }
 .hero-header {
     color: #ffffff;
@@ -80,6 +116,9 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    background-color: var(--brand-color-navvy-blue);
+    display: flex;
+    margin-bottom: 48px;
 }
 .hero-button {
     color: #ffffff;
@@ -91,6 +130,12 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     text-align: center;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    box-shadow: 0px 4px 4px 0px rgba (0, 0, 0, 0, 15);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -123,11 +168,107 @@ body {
     color: var(--brand-color-slate);
     font-style: normal;
 }
-.team {
+.section-two-container {
+    display: flex;
+    width: 1128px;
+    height: 104px;
+    flex-shrink: 0;
+    gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.section-box {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.section-three {
+    width: 1128px;
+    height: 412px;
+    flex-shrink: 0;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-bottom: 120px;
+}
+.section-three-header {
+    margin-top: 120px;
+}
+.section-three-box {
+    display: inline-flex;
+    gap: 24px;
+}
+
+.team-section {
     background-color: var(--brand-color-cloud);
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.our-team-header {
+    width: 162px;
+    height: 40px;
+    display: inline-flex;
+    margin-top: 120px;
+    margin-bottom: 72px;
+    margin-left: 639px;
+    margin-right: 639px;
+    text-align: center;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+    align-items: center;
+    justify-content: center;
+}
+.team-card {
+    display: inline-flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 264px;
+    height: 380px;
+} 
+.card-content {
+    display: flex;
+    width: 232px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 .list-item {
     background-color: #ffffff;
+}
+
+.footer {
+    background-color: var(--brand-color-navvy-blue);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+.footnote-box {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    margin: 100px 1020px 100px 156px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footnote-logo {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 17.5px;
 }
 .footnote {
     color: var(--brand-color-cloud);
@@ -135,10 +276,11 @@ body {
     letter-spacing: 0.32px;
     font-size: 16px;
     font-weight: 400;
+    width: 264px;
+    height: 72px;
+    margin-top: 16px;
 }
-.footer {
-    background-color: var(--brand-color-navvy-blue);
-}
+
 
 /*portfolio styles*/
 
@@ -151,12 +293,98 @@ body {
     color: var(--brand-color-iris);
     background-color: var(--brand-color-cloud);
     cursor: pointer;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid --brand-color-cornflower;
+    width: auto;
 }
 .filter-button:hover,
 .filter-button:focus,
 .filter-button:active {
     background-color: var(--brand-color-ocean);
     color: #FFFFFFFF; 
+}
+.filter-container {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-left: 427px;
+    margin-top: 96px;
+    margin-right: 427px;
+    margin-bottom: 72px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.row-one {
+    width: 1128px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-bottom: 48px;
+    border: 1px solid --brand-color-cornflower;
+    flex-direction: row;
+    display: inline-flex;
+    gap: 24px;
+}
+.card-one {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+}
+.row-two {
+    width: 1128px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-bottom: 48px;
+    border: 1px solid --brand-color-cornflower;
+    flex-direction: row;
+    display: inline-flex;
+    gap: 24px;
+
+}
+.card-two {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+}
+.row-three {
+    width: 1128px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-bottom: 48px;
+    border: 1px solid --brand-color-cornflower;
+    flex-direction: row;
+    display: inline-flex;
+    gap: 24px;
+
+}
+.card-three {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
 }
 .image-title {
     font-weight: 500;

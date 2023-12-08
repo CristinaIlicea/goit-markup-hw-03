@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />  
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a class="logo link" href="./index.html">Web<span class="half-logo" style="color:#2E2F42">Studio</span></a>
+    <header class="header-container">
+        <nav class="navigation">
+            <a class="logo link header-logo" href="./index.html">Web<span class="half-logo" style="color:#2E2F42">Studio</span></a>
             <ul class="main-navigation list">
                 <li>
                     <a class="link nav-link nav" href="./index.html">Studio</a>
@@ -26,7 +27,7 @@
             </ul>
         </nav>
         <address class="contacts">
-            <ul class="list">
+            <ul class="list contacts-container">
                 <li>
                     <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
@@ -38,8 +39,8 @@
     </header>
     <main>
         <section class="main-section">
-            <h1 class="wdn-text-hidden">Hidden text</h1>
-            <ul class="list">
+            <h1 hidden class="wdn-text-hidden">Hidden text</h1>
+            <ul class="list filter-container">
                 <li>
                     <button type="button" class="filter-button">All</button>
                 </li>
@@ -56,64 +57,68 @@
                     <button type="button" class="filter-button">Marketing</button>
                 </li>
             </ul>
-            <ul class="list">
-                <li>
+            <ul class="list row-one">
+                <li class="card-one">
                     <a class="link" href="">
                         <img class="images" src="./images/Figma-banking-sq.jpg" alt="Banking App" width="360" height="300"/>
                         <h2 class="image-title">Banking App Interface Concept</h2>
                         <p class="image-description">App</p>
                     </a>
                 </li>
-                <li>
+                <li class="card-one">
                     <a class="link" href="">  
                         <img src="./images/Figma-cashless-payment-sq.jpg" alt="Cashless payment" width="360" height="300"/>
                         <h2 class="image-title">Cashless Payment</h2>
                         <p class="image-description">Marketing</p>
                         </a>
                 </li>
-                <li>
+                <li class="card-one">
                     <a class="link" href="">  
                         <img src="./images/Figma-meditation-app-sq.jpg" alt="Meditation app" width="360" height="300"/>
                         <h2 class="image-title">Meditation App</h2>
                         <p class="image-description">App</p>
                     </a>
                 </li>
-                <li>
+            </ul>
+            <ul class="list row-two">
+                <li class="card-two">
                     <a class="link" href="">  
                         <img src="./images/Figma-taxi-service-sq.jpg" alt="Taxi service" width="360" height="300"/>
                         <h2 class="image-title">Taxi Service</h2>
                         <p class="image-description">Marketing</p>
                     </a>
                 </li>
-                <li>
+                <li class="card-two">
                     <a class="link" href="">
                         <img src="./images/Figma-screen-illustrations-sq.jpg" alt="Screen illustrations" width="360" height="300"/>
                         <h2 class="image-title">Screen Illustrations</h2>
                         <p class="image-description">Design</p> 
                         </a>                     
                 </li>
-                <li>
+                <li class="card-two">
                     <a class="link" href="">
                     <img src="./images/Figma-online-courses-sq.jpg" alt="Online courses" width="360" height="300"/>
                         <h2 class="image-title">Online Courses</h2>
                         <p class="image-description">Marketing</p>   
                     </a>                    
                 </li>
-                <li>                        
+            </ul>
+            <ul class="list row-three">
+                <li class="card-three">                        
                     <a class="link" href="">
                     <img src="./images/Figma-instagram-stories-sq.jpg" alt="Instagram stories" width="360" height="300"/>
                     <h2 class="image-title">Instagram Stories Concept</h2>
                     <p class="image-description">Design</p> 
                     </a>  
                 </li>
-                <li>  
+                <li class="card-three">  
                     <a class="link" href="">                      
                     <img src="./images/Figma-organic-food-sq.jpg" alt="Organic food" width="360" height="300"/>
                     <h2 class="image-title">Organic Food</h2>
                     <p class="image-description">Web Site</p> 
                     </a>
                 </li>
-                <li>
+                <li class="card-three">
                     <a class="link" href="">                      
                     <img src="./images/Figma-fresh-coffee-sq.jpg" alt="Fresh coffee" width="360" height="300"/>
                     <h2 class="image-title">Fresh Coffee</h2>
@@ -124,8 +129,8 @@
         </section>
     </main>
     <footer class="footer">
-        <a class="logo link" href="./index.html">Web<span class="half-logo" style="color:#F4F4FD">Studio</span></a>
-        <p class="footnote">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <a class="logo link footnote-logo footnote-box" href="./index.html">Web<span class="half-logo" style="color:#F4F4FD">Studio</span></a>
+        <p class="footnote footnote-box">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
      </footer>
 </body>
 </html>
