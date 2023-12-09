@@ -303,8 +303,6 @@ img {
 .list-item {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
-    width: 100%;
-    min-width: 264px;
     width: calc(100%-72px) / 4;
 }
 
