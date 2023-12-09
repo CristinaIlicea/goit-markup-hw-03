@@ -82,7 +82,7 @@ img {
     list-style-type: none;
 }
 .header {
-    border-bottom: 1px solid #e2e9fc;
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
     background: #fff;
     border-bottom: 1px solid --brand-color-cornflower;
