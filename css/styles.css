@@ -388,6 +388,7 @@ img {
     row-gap: 48px;
     column-gap: 24px;
     flex-direction: row;
+    padding:0;
 }
 .card-item {
     flex-direction: column;
