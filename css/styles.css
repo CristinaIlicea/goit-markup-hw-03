@@ -116,6 +116,7 @@ img {
     height: 156px;
     align-items: center;
     flex-shrink: 0;
+    margin-right: 76px;
 }
 .contacts-container {
     display: flex;
@@ -236,10 +237,12 @@ img {
     flex-shrink: 0;
     margin-left: 156px;
     margin-right: 156px;
+    padding-bottom: 120px;
 }
 .section-three-header {
     margin-bottom: 8px;
     align-items: center;
+    margin-bottom: 72px;
 }
 .section-three-box {
     display: flex;
