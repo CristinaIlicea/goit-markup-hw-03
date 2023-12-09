@@ -394,7 +394,6 @@ img {
     gap: 32px;
     padding-bottom: 32px;
     flex-shrink: 0;
-    width: calc ((100%-48px) / 3);
     width: 100%;
     min-width: 264px;
 }
