@@ -276,8 +276,6 @@ img {
 .team-list {
     display: flex;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
     align-items: center;
     justify-content: center;
 }
@@ -307,6 +305,7 @@ img {
     border-radius: 0px 0px 4px 4px;
     width: 100%;
     min-width: 264px;
+    width: calc(100%-72px) / 4;
 }
 
 .footer {
