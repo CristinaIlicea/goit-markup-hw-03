@@ -292,6 +292,7 @@ img {
 .card-title {
     text-align: center;
     margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 .card-content {
     display: flex;
@@ -304,7 +305,6 @@ img {
 .list-item {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
-    width: calc(100%-72px)/3;
     width: 100%;
     min-width: 264px;
 }
