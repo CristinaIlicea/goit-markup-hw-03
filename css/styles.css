@@ -280,25 +280,16 @@ img {
     justify-content: center;
 }
 .team-card {
-    display: inline-flex;
+    text-align: center;
     padding: 32px 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    border-radius: 0px 0px 4px 4px;
+    background: #fff;
 } 
 .card-title {
-    text-align: center;
     margin-bottom: 8px;
 }
 .card-content {
-    display: flex;
     text-align: center;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 8px;
 }
 .list-item {
     background-color: #ffffff;
@@ -391,11 +382,7 @@ img {
     flex-shrink: 0;
     width: calc(100%-48px) / 3;
 }
-.card-content {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
+
 .image-title {
     font-weight: 500;
     font-size: 20px;
