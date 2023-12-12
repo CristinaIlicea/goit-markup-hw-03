@@ -114,7 +114,6 @@ img {
 }
 .header-logo {
     display: flex;
-    height: 156px;
     align-items: center;
     flex-shrink: 0;
     margin-right: 76px;
